@@ -1,8 +1,0 @@
-{
-  "type": "firebird",
-  "port": 3050,
-  "host": "localhost",
-  "username": "SYSDBA",
-  "password": "masterkey",
-  "database": "/tmp/test.FDB"
-}
