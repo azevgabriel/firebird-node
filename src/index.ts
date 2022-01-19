@@ -1,11 +1,9 @@
-const firebird = require('node-firebird')
+import firebird from 'node-firebird';
 
 const options = {
   host: '127.0.0.1',
   port: 3050,
   database: 'C:/DADOS02.FBD',
-  user: 'SYSDBA',
-  password: 'masterkey',
   user: 'SYSDBA',
   password: 'masterkey',
   lowercase_keys: false,

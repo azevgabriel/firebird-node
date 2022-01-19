@@ -11,5 +11,7 @@
   "dependencies": {
     "node-firebird": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
