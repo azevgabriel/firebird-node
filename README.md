@@ -18,7 +18,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Verifique se em firebird.conf existem seguintes variáveis, caso não, acione-as:
 ```
   WireCrypt = Enabled
-  AuthServer = Legacy_Auth
 ```
 - Após isso, reinicie o servidor do Firebird.
 

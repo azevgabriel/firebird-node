@@ -1,12 +1,12 @@
 {
   "name": "firebird-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/azevgabriel/firebird-node.git",
   "author": "Gabriel Azevedo <azevgabriel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node src/index.ts"
   },
   "dependencies": {
     "node-firebird": "^1.0.0"

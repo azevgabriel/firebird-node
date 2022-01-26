@@ -1,4 +1,4 @@
-import firebird from 'node-firebird';
+const firebird = require('node-firebird');
 
 const options = {
   host: '127.0.0.1',
@@ -14,7 +14,7 @@ const options = {
 firebird.attach(options, function(err, db) {
 
   if (err)
-      throw err;
+    console.log(err);
 
   // db = DATABASE
   db.query('SELECT * FROM PONTO', function(err, result) {

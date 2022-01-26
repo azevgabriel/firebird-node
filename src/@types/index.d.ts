@@ -54,7 +54,6 @@ interface FirebirdTransactionOperation {
     rollbackRetaining(error: FirebirdError): void;
 }
 
-
 declare var firebird: FirebirdStatic;
 declare module 'node-firebird' {
   export = firebird;
